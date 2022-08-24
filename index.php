@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="cont">
     <?php 
     $list = [
         [
@@ -63,13 +62,18 @@
 
 
     ]
-    
-    
-    
-    
-    
-    
     ?>
+    <div id="cont">
+     <?php 
+     $i = 0;
+     foreach($list as $i){ ?>
+     <h1> 
+        <?php echo $i['ask']; ?>
+     </h1>
+     <p>
+      <?php echo $i['answer'] ?>
+     </p>
+    <?php } ?>
     </div>
 </body>
 </html>
