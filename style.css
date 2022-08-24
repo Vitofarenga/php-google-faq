@@ -16,4 +16,37 @@ body{
 h1{
     color: rgb(72, 72, 72);
     font-size: 25px;
+    margin-top: 60px;
+    
+}
+p{
+    padding-top: 30px;
+}
+ol{
+    padding-left: 30px;
+}
+ul{
+    padding-left: 30px;
+}
+#piccola{
+    margin-top: 20px;
+}
+#piccola li{
+    margin-top:20px;
+}
+a{
+    text-decoration: none;
+}
+#navbar{
+    width: 100%;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+}
+#parte_1{
+    display: flex;
+    flex-direction: column;
+}
+#parte_2{
+
 }
