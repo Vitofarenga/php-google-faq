@@ -10,6 +10,10 @@ body{
 }
 #cont{
     margin-top: 100px;
-    width: 75%;
+    width: 65%;
     border: 1px solid black;
+}
+h1{
+    color: rgb(72, 72, 72);
+    font-size: 25px;
 }
